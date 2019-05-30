@@ -1,0 +1,48 @@
+{
+  "name": "react-native-material-textfield-axel",
+  "version": "0.12.0",
+  "description": "Material textfield",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "material",
+    "input",
+    "textinput",
+    "field",
+    "textfield",
+    "floating",
+    "label"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+      "prop-types": "^15.5.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "babel-jest": "^22.0.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.6.0",
+    "eslint-plugin-react": "^7.0.0",
+    "jest": "^22.0.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run jest -- --silent",
+    "lint": "eslint src example/app.js",
+    "jest": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example"
+    ]
+  }
+}

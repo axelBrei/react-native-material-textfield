@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react-native-material-buttons": "^0.5.0",
+    "react-native-material-textfield-axel": "file:../react-native-material-textfield-axel-0.12.0.tgz",
+    "react-native-vector-icons": "^4.1.1",
+    "prop-types": "^15.5.9"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "4.0.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0"
+  }
+}
